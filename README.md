@@ -13,4 +13,4 @@ Notes from the sessions I'm attending at NICAR 14
 * [Enhance your stories with statistics](/1-3.md)
 * [Love your life, retire your servers](/1-4.md)
 * [The customized Census: How to use microdata when you just can't find the right table](/1-5.md)
-* Make reporting better, together — Collaborative reporting with GitHub (*coming soon*)
+* [Make reporting better, together — Collaborative reporting with GitHub](/1-6.md)
