@@ -1,0 +1,83 @@
+<h1 id="riflingthroughthemappingtoolbox">Rifling through the mapping toolbox</h1>
+
+<p><img id="riflingthroughthemappingtoolboxtitleslide" src="img/1-2_title.jpg" alt="Rifling through the mapping toolbox title slide" title="" /></p>
+
+<h4 id="speakers:">Speakers:</h4>
+
+<ul>
+<li><strong><a href="https://twitter.com/McNeill_Reuters">Ryan McNeill</a></strong>, <em>data journalist, Reuters</em></li>
+<li><strong><a href="https://twitter.com/mikejcorey">Michael Corey</a></strong>, <em>senior news applications developer, The Center for Investigative Reporting</em></li>
+</ul>
+
+<h4 id="notes">Notes</h4>
+
+<p>Opening example: Shapefile of the Florida coastline
+Goal: Create a 1-mile buffer zone
+Problem: The shape was way too complex; attempts became too memory intensive.</p>
+
+<p>&#8220;What you need is a tool to solve the problem. No time for obsession.&#8221;</p>
+
+<p>Think about the end product when choosing the best tools to get there.</p>
+
+<p>When using a geocoding tool, read the TOS:</p>
+
+<ul>
+<li>Required to use Lat/Lng on their map?</li>
+<li>Are you allowed to cache?</li>
+<li>Is there a rate limit?</li>
+</ul>
+
+<p>(the last two are often at odds)</p>
+
+<p>Some examples:</p>
+
+<ul>
+<li><a href="https://developers.google.com/maps/documentation/geocoding/">Google Geocoding API</a></li>
+<li><a href="http://www.esri.com/software/arcgis/arcgisonline">ArcGIS Online</a></li>
+<li><a href="https://pypi.python.org/pypi/python-omgeo">Oatmeal (for Python)</a> or <a href="http://www.rubygeocoder.com/">Ruby Geocoder</a></li>
+</ul>
+
+<p>Use Caution:</p>
+
+<ul>
+<li>Doublecheck your results</li>
+<li>Lat/Lng may be wrong</li>
+<li>Check the precision field</li>
+</ul>
+
+<p>Example: <a href="http://www.reuters.com/article/interactive/idUSBRE94L19020130522?view=large">Reuters&#8217; Ammonium Nitrate Map</a></p>
+
+<ul>
+<li>Hand-checked data</li>
+<li>Had to eliminate some that couldn&#8217;t be confirmed</li>
+<li>Result: Undercounted facilities, but low risk of misidentifying</li>
+</ul>
+
+<p>(Still did, due to old data provided by states)</p>
+
+<p>Vector Web Map tools:</p>
+
+<ul>
+<li><a href="http://geojson.org/">GeoJSON</a></li>
+<li><a href="https://github.com/mbostock/topojson">TopoJSON</a></li>
+<li><a href="http://d3js.org/">D3.js</a></li>
+<li><a href="http://kartograph.org/">Kartograph</a></li>
+</ul>
+
+<p>It&#8217;s hard to find data that crosses international borders.</p>
+
+<p>Example: <a href="http://static.apps.cironline.org/border-seizures/">CIR&#8217;s drug trafficking map</a></p>
+
+<p>Question: Where is a good place to start? Answer: <a href="https://www.mapbox.com/tilemill/">TileMill</a></p>
+
+<p>Question: How can you use a huge dataset? Answer: Narrow it down. Clean the data. Use the accuracy field. Throw out P.O. Boxes and similar. Test if returned location and actual location are in the same county.</p>
+
+<p><a href="https://docs.google.com/presentation/d/1IbN8EM1VSXcDz7_kSgY5ZBi13EqCogwiXBWTdOD4su8/">Link to slides</a></p>
+
+<p><a href="http://ire.org/events-and-training/event/973/1189/">IRE link</a></p>
+
+<h4 id="moreslides">More slides</h4>
+
+<p><img id="process" src="img/1-2_process.jpg" alt="Process" title="" />
+<img id="moreprocess" src="img/1-2_process2.jpg" alt="More Process" title="" />
+<img id="lol" src="img/1-2_lol.jpg" alt="Lol" title="" /></p>
