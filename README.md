@@ -33,3 +33,6 @@ Notes from the sessions I'm attending at NICAR 14
 * Census I: Must-have data for every beat
 * Build your bot army
 * Census III: Mapping and Presentation
+
+#####Other Resources:
+[Chrys Wu's huge list of NICAR stuff](http://blog.chryswu.com/2014/02/21/nicar14-slides-tutorials-links-tools/)
